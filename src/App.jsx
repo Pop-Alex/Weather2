@@ -135,6 +135,12 @@ const App = () => {
           </div>
         </div>
       </div>
+      <div className="powered">
+        Powered by{" "}
+        <a href="https://www.weatherapi.com/" title="Weather API">
+          WeatherAPI.com
+        </a>
+      </div>
     </div>
   );
 };
