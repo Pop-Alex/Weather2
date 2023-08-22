@@ -16,7 +16,7 @@ export const ContextProvider = ({ children }) => {
 
   const fetchApi = (location) => {
     fetch(
-      ` http://api.weatherapi.com/v1/forecast.json?key=82a0f010528d40529a6113242233107&q=${location}&days=5`
+      ` https://api.weatherapi.com/v1/forecast.json?key=82a0f010528d40529a6113242233107&q=${location}&days=5`
     )
       .then((response) => {
         return response.json();
